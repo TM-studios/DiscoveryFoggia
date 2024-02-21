@@ -59,6 +59,15 @@
 
 .cattedrale{
     width: 800px;
+    border-radius: 15px;
+}
+
+.project-expl-paragraph{
+    display: grid;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
 }
 
 strong{
@@ -67,26 +76,15 @@ strong{
 
 
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1000px) {
 
     .cattedrale{
-        width: 600px;
+        width: 95%;
     }
-    
-}
 
-@media screen and (max-width:650px) {
-
-    .cattedrale{
-        width: 450px;
-    }
-    
-}
-
-@media screen and (max-width:550px) {
-
-    .cattedrale{
-        width: 350px;
+    .project-expl-paragraph{
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     
 }

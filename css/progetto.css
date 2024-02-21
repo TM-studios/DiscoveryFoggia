@@ -71,11 +71,10 @@ p{
   
   @media only screen and (max-width: 600px) {
     .developer-credits {
-      flex-direction: column; /* Imposta il layout delle colonne per schermi più piccoli */
+      flex-direction: column; 
     }
-  
     .developer {
-      margin-bottom: 70px; /* Aggiunge spazio tra le immagini quando sono in modalità verticale */
+      margin-bottom: 70px; 
     }
   }
   
@@ -106,13 +105,31 @@ p{
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 10px; /* Aggiunge un po' di spazio sopra il nome */
+    margin-top: 10px; 
   }
   
   .social-media-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px; /* Aggiunge un po' di spazio sopra l'icona sociale */
+    margin-top: 10px; 
   }
   
+
+@media(max-width:800px){
+
+    .dev-image-TheiPhoneDev{
+      width: 250px;
+      height: 250px;
+    }
+    
+    .dev-image-mantux{
+      width: 250px;
+      height: 250px;
+    }
+
+    .dev-name{
+      font-size: 40px; 
+    }
+
+}
