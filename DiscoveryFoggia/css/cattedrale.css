@@ -1,0 +1,90 @@
+:root{
+    --barn-red: #780000ff;
+    --fire-brick: #c1121fff;
+    --papaya-whip: #fdf0d5ff;
+    --prussian-blue: #003049ff;
+    --air-superiority-blue: #669bbcff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1{
+    background-color: var(--prussian-blue);
+}
+
+.nav2{
+    display: flex;
+}
+
+.logo{
+    margin: 5px;
+}
+
+.discovery{
+    color: firebrick;
+}
+
+.foggia{
+    color: white;
+}
+
+.nav-link1{
+    display: block;
+    justify-content: end;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #dedede;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    margin: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+@media(max-width:800px){
+    .place-container{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.prog{
+    text-decoration: none;
+    color: black;
+}
+
+.cattedrale{
+    width: 800px;
+    border-radius: 15px;
+}
+
+.project-expl-paragraph{
+    display: grid;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+}
+
+strong{
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    .cattedrale{
+        width: 95%;
+    }
+
+    .project-expl-paragraph{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+}
